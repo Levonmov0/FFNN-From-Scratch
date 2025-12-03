@@ -56,8 +56,7 @@ After execution, the model will:
 * Train using the provided dataset
 * Report training and validation metrics
 * Evaluate on a test set
-* Generate plots (saved to `figures/`) such as:
-
+* Generate plots such as:
   * Training curves
   * Predicted vs Actual scatter plot
 
@@ -73,7 +72,7 @@ The program produces:
 * Regression scatter plot showing predicted vs actual performance
 
 * Examples of plots generated:
-![Training and validation loss](figures/loss_plot.png)
+![Training and validation loss](figures/training_and_validation_loss.png)
 ![Learning rate decay](figures/learning_rate.png)
 ![Predicted values vs acctual values](figures/pred_vs_actual_plot.png)
 
@@ -91,7 +90,7 @@ The Feed Forward Neural Network consists of:
 * Two hidden layers
 * Output layer
 
-Each layer performs an affine transformation followed by a nonlinear activation (configurable via a layer-size list).
+Each layer performs a transformation followed by a nonlinear activation (configurable via a layer-size list).
 
 ---
 
@@ -109,6 +108,7 @@ Training uses **mini-batch gradient descent** across several epochs:
 Additional features:
 
 * Patience-based LR decay
+    * Instead of the usual LR decay per X number of epochs i chose to decay the LR based on if there where improvments found or not
 * Automatic tracking of best model parameters
 
 ---
