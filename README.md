@@ -36,8 +36,8 @@ main.py
 ## 📦 Installation
 
 ```bash
-git clone <https://github.com/Levonmov0/FFNN-From-Scratch.git>
-cd <FFNN-From-Scratch>
+git clone https://github.com/Levonmov0/FFNN-From-Scratch.git
+cd FFNN-From-Scratch
 pip install -r requirements.txt
 ```
 
