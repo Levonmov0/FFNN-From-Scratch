@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Data files (optional — remove if needed)
+Data/Raw/*.csv
+Data/Raw/*.txt
+
+# Figures generated automatically
+figures/*.png
+figures/*.jpg
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
